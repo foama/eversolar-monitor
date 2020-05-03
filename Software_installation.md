@@ -50,10 +50,10 @@ sudo cpanm DBD::SQLite
 
 # If you use a serial port:
 
-apt-get install libdevice-serialport-perl
+sudo apt-get install libdevice-serialport-perl
 #Serial ports have a tencency to hang the RPI inless you update it
 sudo apt-get install ca-certificates
-rpi-update
+sudo rpi-update
 # reboot
 #And you’re ready to go - after modifying the .ini file start the script like this:
 
